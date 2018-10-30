@@ -1,0 +1,11 @@
+version: "3"
+services:
+  ocserv:
+    image: smartwang/ocserv:latest
+    build: .
+    privileged: true
+    volumes:
+    - ./ocserv:/etc/ocserv
+    ports:
+    - 443:443
+    restart: unless-stopped

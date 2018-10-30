@@ -1,3 +1,10 @@
+##
+
+此仓库fork自 https://github.com/wppurking/ocserv-docker.git
+
+主要调整了一下默认的路由配置，更新了基础镜像版本，增加了docker-composer的编排
+
+
 ## 用途
 
 因为安装一个 Open Connect 的步骤实在太麻烦了, 特别对于新手, 所以特意参考了 jpetazzo 的 [dockvpn](https://github.com/jpetazzo/dockvpn) 弄了一个 ocserv 的. 此项目的原因和一点点介绍可见 [使用 ocserv-docker 享受自由网络](http://wppurking.github.io/2014/10/11/use-ocserv-docker-to-enjoy-freedom-internet.html)
